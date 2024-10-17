@@ -1,13 +1,13 @@
-// Package ramsql contains RamSQL driver registration for xk6-sql.
-package ramsql
+// Package clickhouse contains ClickHouse SQL driver registration for xk6-sql.
+package clickhouse
 
 import (
 	"github.com/grafana/xk6-sql/sql"
 
-	// Blank import required for initialization of driver.
-	_ "github.com/proullon/ramsql/driver"
+	// Blank imports required for initialization of driver.
+	_ "github.com/ClickHouse/clickhouse-go/v2"
 )
 
 func init() {
-	sql.RegisterModule("ramsql")
+	sql.RegisterModule("clickhouse")
 }
