@@ -4,7 +4,7 @@ go 1.22
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.30.0
-	github.com/grafana/xk6-sql v0.5.0-alpha.3
+	github.com/grafana/xk6-sql v0.5.0-alpha.4
 )
 
 require (
