@@ -6,7 +6,6 @@ metadata:
   description: |
     xk6-sql driver extension for ClickHouse database support
   annotations:
-    backstage.io/techdocs-ref: dir:.
     github.com/project-slug: grafana/xk6-sql-driver-clickhouse
 spec:
   type: library
