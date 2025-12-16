@@ -1,6 +1,6 @@
 module github.com/grafana/xk6-sql-driver-clickhouse
 
-go 1.23.0
+go 1.24
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.37.2
