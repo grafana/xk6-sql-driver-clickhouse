@@ -6,7 +6,7 @@ toolchain go1.25.10
 
 require (
 	github.com/ClickHouse/clickhouse-go/v2 v2.46.0
-	github.com/grafana/xk6-sql v1.1.0
+	github.com/grafana/xk6-sql v1.1.1
 )
 
 require (
